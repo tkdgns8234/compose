@@ -19,7 +19,6 @@
             android:theme="@style/Theme.ComposeTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
@@ -27,6 +26,8 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <activity android:name=".practice.compose_recyclerView.ImageListActivity"/>
     </application>
 
 </manifest>
